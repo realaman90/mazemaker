@@ -1,0 +1,5 @@
+World ----> obj that contains all of the diffrent things in our matter app
+Engine ---> Reads the current state of the world form the world obj, then calculates changes in positions of all the diffrent shapes
+Runner ---> Gets the Engine and world to work together. Runs about 60 times per second
+Render ---> Whenever the Engine processes an update, Render will take a look at all the diffrent shapes and show them on the screen
+Body ---> A shape that we are displaying. can be a circle, rectangle, oval etc.
